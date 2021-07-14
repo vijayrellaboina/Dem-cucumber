@@ -1,0 +1,175 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-18T13:57:10.470Z",
+        "line": 11,
+        "name": ":  Test with valid Credentials",
+        "description": "",
+        "id": "test-orangehrm-login-scenario;:--test-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18341149900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open chrome browser",
+            "match": {
+              "location": "stepDefinitn.Steps.Open_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12866387800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Get Valid URL",
+            "match": {
+              "location": "stepDefinitn.Steps.Get_Valid_URL()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7760878200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login with valid \"Admin\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 18
+                },
+                {
+                  "val": "admin123",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitn.Steps.Login_with_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Login successfully",
+            "match": {
+              "location": "stepDefinitn.Steps.User_Login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2001900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close the chrome browser",
+            "match": {
+              "location": "stepDefinitn.Steps.Close_the_chrome_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-18T13:57:50.384Z",
+        "line": 12,
+        "name": ":  Test with valid Credentials",
+        "description": "",
+        "id": "test-orangehrm-login-scenario;:--test-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 26616193700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open chrome browser",
+            "match": {
+              "location": "stepDefinitn.Steps.Open_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22010436500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Get Valid URL",
+            "match": {
+              "location": "stepDefinitn.Steps.Get_Valid_URL()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11203012900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login with valid \"vijay\" and \"vijay123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vijay",
+                  "offset": 18
+                },
+                {
+                  "val": "vijay123",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitn.Steps.Login_with_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Login successfully",
+            "match": {
+              "location": "stepDefinitn.Steps.User_Login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close the chrome browser",
+            "match": {
+              "location": "stepDefinitn.Steps.Close_the_chrome_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test OrangeHRM Login Scenario",
+    "description": "",
+    "id": "test-orangehrm-login-scenario",
+    "keyword": "Feature",
+    "uri": "file:Features/Test.feature",
+    "tags": []
+  }
+]

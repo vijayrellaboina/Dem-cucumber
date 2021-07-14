@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="101.353">
+    <testcase classname="Test OrangeHRM Login Scenario" name=":  Test with valid Credentials" time="39.882">
+        <system-out><![CDATA[Given Open chrome browser...................................................passed
+Then Get Valid URL..........................................................passed
+When Login with valid "Admin" and "admin123"................................passed
+Then User Login successfully................................................passed
+And Close the chrome browser................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test OrangeHRM Login Scenario" name=":  Test with valid Credentials 2" time="59.859">
+        <system-out><![CDATA[Given Open chrome browser...................................................passed
+Then Get Valid URL..........................................................passed
+When Login with valid "vijay" and "vijay123"................................passed
+Then User Login successfully................................................passed
+And Close the chrome browser................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
